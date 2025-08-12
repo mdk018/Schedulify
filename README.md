@@ -38,23 +38,47 @@ Tailored for **learners** and **instructors**, this tool offers **dynamic Gantt 
 - **npm** (Node Package Manager)
 
 ### Setup Instructions
-```bash
-# Clone the repository
+
+1. Clone the repository
+```
 git clone https://github.com/mdk018/Schedulify.git
 cd os-scheduling-algorithms
-
-# Install backend dependencies
+```
+3. Install backend dependencies
+```
 cd server
 npm install
+```
 
-# Install frontend dependencies
+4. Install frontend dependencies
+```
 cd ../client
 npm install
-
-# Start the backend server
+```
+4. Start the backend server
+```
 cd ../server
 npm start
-
-# Launch the frontend
+```
+6. Launch the frontend
+```
 cd ../client
 npm run dev
+```
+Access the Application
+Open your browser and navigate to: http://localhost:5173
+
+📁 Project Structure
+```
+Schedulify/
+  ├── server/   # Backend logic & scheduling algorithm implementations
+  └── client/   # Frontend interface, components, and pages
+```
+🧭 Application Overview
+Dashboard – Entry point with navigation & overview.
+
+Algorithm Visualizer – Input process data, pick an algorithm, view execution timeline & stats.
+
+Performance Comparison – Compare multiple algorithms side-by-side.
+
+Live Simulator – Step through scheduling logic interactively.

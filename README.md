@@ -1,93 +1,83 @@
-# OS Scheduling Algorithms Visualizer
+OS Scheduling Algorithms Visualizer
+An interactive full-stack web application built to demonstrate, simulate, and evaluate classic CPU scheduling techniques. Tailored for learners and instructors, this tool offers dynamic Gantt chart animations, live simulation capabilities, and comparative analysis across multiple algorithms.
 
-A full-stack web application to **visualize, simulate, and compare classic CPU scheduling algorithms**. Designed for students and educators, this tool provides interactive Gantt charts, real-time simulation, and side-by-side algorithm comparison.
+🔧 Key Highlights
+Dynamic Visualization: Watch animated Gantt charts and explore detailed metrics for each scheduling strategy.
 
----
+Side-by-Side Comparison: Execute several algorithms on the same process dataset and analyze performance differences.
 
-## Features
+Live Simulation Mode: Observe scheduling decisions unfold in real time, with live updates to process states and queues.
 
-- **Visualize Algorithms**: Animated Gantt charts and detailed process statistics for each scheduling algorithm.
-- **Compare Performance**: Run multiple algorithms on the same process set and compare their metrics.
-- **Real-Time Simulator**: Step through scheduling decisions in real time, watching process states and queues update live.
-- **Interactive Process Table**: Add, edit, and remove processes with custom arrival, burst, and priority values.
-- **Algorithm Selector**: Choose from a variety of preemptive and non-preemptive scheduling algorithms.
+Editable Process Table: Add, modify, or delete processes with custom arrival times, burst durations, and priorities.
 
----
+Algorithm Picker: Select from a range of preemptive and non-preemptive scheduling methods.
 
-## Supported Algorithms
+🧠 Algorithms Included
+FCFS – First Come First Serve
 
-- **FCFS** (First Come First Serve)
-- **SJF** (Shortest Job First)
-- **SRTF** (Shortest Remaining Time First)
-- **Priority Scheduling** (Preemptive & Non-Preemptive)
-- **HRRN** (Highest Response Ratio Next)
-- **Round Robin**
+SJF – Shortest Job First
 
----
+SRTF – Shortest Remaining Time First
 
-## Tech Stack
+Priority Scheduling – Both Preemptive and Non-Preemptive
 
-- **Frontend**: React (Vite), Tailwind CSS, Framer Motion
-- **Backend**: Node.js, Express
-- **API**: RESTful, stateless, easy to extend
+HRRN – Highest Response Ratio Next
 
----
+Round Robin
 
-## Getting Started
+🛠️ Technology Stack
+Frontend: React (powered by Vite), styled with Tailwind CSS, enhanced with Framer Motion
 
-### Prerequisites
+Backend: Node.js with Express
 
-- Node.js (v16+ recommended)
-- npm
+API Design: RESTful, stateless, and easily extensible
 
-### Installation
+🚀 Getting Started
+Requirements
+Node.js (version 16 or higher)
 
-1. **Clone the repository:**
-   ```bash
-   git clone <repo-url>
-   cd os-scheduling-algorithms
-   ```
+npm (Node Package Manager)
 
-2. **Install dependencies:**
-   ```bash
-   cd server
-   npm install
-   cd ../client
-   npm install
-   ```
+Setup Instructions
+Clone the repository
 
-3. **Run the backend:**
-   ```bash
-   cd ../server
-   npm start
-   ```
+```
+git clone <https://github.com/mdk018/Schedulify.git>
+cd os-scheduling-algorithms
+```
+Install dependencies
 
-4. **Run the frontend:**
-   ```bash
-   cd ../client
-   npm run dev
-   ```
+```
+cd server
+npm install
+cd ../client
+npm install
+```
+Start the backend server
 
-5. **Open your browser:**  
-   Visit [http://localhost:5173](http://localhost:5173)
+```
+cd ../server
+npm start
+```
+Launch the frontend
 
----
+```
+cd ../client
+npm run dev
+```
+Access the application Open your browser and navigate to http://localhost:5173
 
-## Project Structure
-
+📁 Project Layout
 ```
 os-scheduling-algorithms/
-  ├── server/   # Express backend, scheduling algorithms
-  └── client/   # React frontend, UI components, pages
+  ├── server/   # Backend logic and scheduling algorithm implementations
+  └── client/   # Frontend interface, components, and pages
 ```
+🧭 Application Overview
+Dashboard: Entry point with navigation and overview.
 
----
+Algorithm Visualizer: Input process data, choose an algorithm, and view execution timeline and stats.
 
-## Usage
+Performance Comparison: Analyze multiple algorithms side by side.
 
-- **Home**: Overview and navigation.
-- **Visualize Algorithms**: Input processes, select an algorithm, and view the Gantt chart and stats.
-- **Compare Performance**: Compare multiple algorithms side by side.
-- **Real-Time Simulator**: Step through scheduling decisions interactively.
-
--------
+Live Simulator: Step through scheduling logic interactively.

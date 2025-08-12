@@ -68,13 +68,13 @@ npm run dev
 Access the Application
 Open your browser and navigate to: http://localhost:5173
 
-📁 Project Structure
+###📁 Project Structure
 ```
 Schedulify/
   ├── server/   # Backend logic & scheduling algorithm implementations
   └── client/   # Frontend interface, components, and pages
 ```
-🧭 Application Overview
+###🧭 Application Overview
 Dashboard – Entry point with navigation & overview.
 
 Algorithm Visualizer – Input process data, pick an algorithm, view execution timeline & stats.

@@ -1,4 +1,4 @@
-# ⏳ OS Scheduling Algorithms Visualizer
+# ⏳ Schedulify – Interactive CPU Scheduling Simulator
 
 An **interactive full-stack web application** built to **demonstrate, simulate, and evaluate** classic CPU scheduling techniques.  
 Tailored for **learners** and **instructors**, this tool offers **dynamic Gantt chart animations**, **live simulations**, and **side-by-side performance comparisons**.

@@ -79,8 +79,11 @@ Schedulify/
 🧭 Application Overview
 ---
 Dashboard – Entry point with navigation & overview.
+
 Algorithm Visualizer – Input process data, pick an algorithm, view execution timeline & stats.
+
 Performance Comparison – Compare multiple algorithms side-by-side.
+
 Live Simulator – Step through scheduling logic interactively.
 
 ---
